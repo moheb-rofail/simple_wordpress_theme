@@ -1,0 +1,17 @@
+/*
+Theme Name: Simple
+Theme URI: https://moheb-rofail.neocities.org/
+Author: Moheb Rofail
+Author URI: https://moheb-rofail.neocities.org/
+Description: A simple and clean WordPress theme for bloggers who want to focus on their content without distractions.
+Version: 1.0
+License: GNU General Public License v2 or later
+*/
+
+p {
+    line-height: 2rem;
+}
+
+input, textarea {
+    display: block;
+}
