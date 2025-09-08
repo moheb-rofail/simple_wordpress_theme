@@ -22,6 +22,7 @@
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <link rel="alternate" type="application/rss+xml" title="My Blog RSS"
         href="https://moheb-rofail.github.io/neocities-blog-feeds/feed.xml" />
+    <link rel="stylesheet" href="<?=get_stylesheet_uri();?>">
 </head>
 
 <body itemscope itemtype="https://schema.org/Person">
@@ -47,3 +48,4 @@
             </div>
         </nav>
     </header>
+    

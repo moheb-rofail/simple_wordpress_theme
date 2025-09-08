@@ -8,10 +8,101 @@ Version: 1.0
 License: GNU General Public License v2 or later
 */
 
+header {
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 20px;
+}
+nav, header, footer, footer>ul {
+    background-color: aqua !important;
+}
+
 p {
     line-height: 2rem;
 }
+/* single */
+h1, h2,h3,h4,h5,h6 {
+    font-size:x-large;
+}
 
-input, textarea {
+.post-content {
+    margin: 20px 0px;
+}
+
+input,
+textarea {
     display: block;
+}
+
+input[type=submit] {
+    background-color: aqua;
+    border:none;
+}
+
+.prev-post {
+    margin-left: 100px;
+    float: left;
+}
+
+.next-post {
+    float: right;
+    margin-right: 100px;
+}
+
+/* index */
+a {
+    text-decoration: none;
+    color: rgb(5, 109, 255);
+}
+
+.categories-list li {
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 7%;
+}
+
+.categories-list li a {
+    font-weight: bold;
+    color: black;
+}
+
+.card-title {
+    height: 65px;
+    padding: 5px;
+    overflow-y: hidden;
+}
+
+.card-body {
+    height: 370px;
+    background-image: linear-gradient(to bottom right, white, rgb(246 238 215))
+}
+
+.comments_number {
+    float: right;
+}
+
+@media only screen and (max-width: 700px) {
+
+    .card-body,
+    .card-title {
+        height: auto;
+    }
+}
+
+/* footer */
+footer {
+    padding: 15px;
+    text-align: center;
+}
+
+footer ul, ul.categories-list {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li, .categories-list li {
+    margin-right: 15px;
+    display: inline-block;
 }
